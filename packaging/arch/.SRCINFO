@@ -1,0 +1,23 @@
+pkgbase = arkade-cli-bin
+	pkgdesc = Ark Wallet CLI (prebuilt ark from arkade-os/arkd) for Arch / Omarchy
+	pkgver = 0.9.16
+	pkgrel = 1
+	url = https://github.com/theDavidCoen/arkade-cli
+	arch = x86_64
+	arch = aarch64
+	license = MIT
+	provides = arkade-cli
+	provides = ark
+	conflicts = arkade-cli
+	conflicts = ark
+	options = !strip
+	source = NOTICE
+	source = LICENSE
+	sha256sums = 4b5f213917bb34469507b61f69785fb95a0c59095b4f0fcdb610c03770c42dec
+	sha256sums = 3a63da9bd43051e0d09e679997e7091cf6e021b4851eb5772c30a8b14aef5ac9
+	source_x86_64 = ark-linux-amd64::https://github.com/arkade-os/arkd/releases/download/v0.9.16/ark-linux-amd64
+	sha256sums_x86_64 = 56f9a667bdf035f11617169fd90a9dfe81640f90797196136f16d520cc4300a5
+	source_aarch64 = ark-linux-arm64::https://github.com/arkade-os/arkd/releases/download/v0.9.16/ark-linux-arm64
+	sha256sums_aarch64 = eefbcf3870cdfd191310e495a583cd87a0b3ac8a6a0a3f0232651c9eeeadc29a
+
+pkgname = arkade-cli-bin

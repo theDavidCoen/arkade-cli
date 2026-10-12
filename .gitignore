@@ -5,4 +5,8 @@
 build/
 log/
 
-data/
+data/# Arch packaging build artifacts
+packaging/arch/*.pkg.tar*
+packaging/arch/src/
+packaging/arch/pkg/
+packaging/arch/ark-linux-*

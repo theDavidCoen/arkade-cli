@@ -1,0 +1,12 @@
+Ark Wallet CLI packaging
+========================
+
+This repository is a fork of https://github.com/arkade-os/cli for packaging
+and Omarchy / Arch Linux distribution.
+
+Prebuilt `ark` binaries packaged by `packaging/arch/PKGBUILD` are published by
+https://github.com/arkade-os/arkd (MIT License).
+
+EXPERIMENTAL SOFTWARE. You may lose funds. Use at your own risk. There is no
+warranty. Do not store meaningful funds in wallets managed by this CLI unless
+you accept that risk.

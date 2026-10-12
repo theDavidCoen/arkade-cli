@@ -1,0 +1,5 @@
+*.pkg.tar*
+*.pkg.tar.zst
+src/
+pkg/
+ark-linux-*

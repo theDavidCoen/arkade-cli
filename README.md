@@ -1,5 +1,13 @@
 ## What is the Ark Wallet CLI?
 
+> **Fork:** [theDavidCoen/arkade-cli](https://github.com/theDavidCoen/arkade-cli) of [arkade-os/cli](https://github.com/arkade-os/cli), for **Arch / Omarchy packaging**.
+>
+> **Experimental.** You may lose funds. Use at your own risk. There is no warranty.
+>
+> Arch install: see [`packaging/arch/README.md`](./packaging/arch/README.md) (`makepkg -si` → `/usr/bin/ark`).
+> Prebuilt binaries come from [arkade-os/arkd releases](https://github.com/arkade-os/arkd/releases) (currently packaged **v0.9.16**).
+
+
 The Ark Wallet CLI (Command Line Interface) is a powerful tool that allows users to interact with the Ark protocol directly from their terminal. It provides a streamlined way to manage your Ark wallet, conduct transactions, and interact with Ark Servers without the need for a graphical interface.
 
 ## Installation
